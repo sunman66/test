@@ -1,1 +1,22 @@
 test
+git add <file> внесли в staging area
+git commit -m "add new"
+git log
+git log --pretty=oneline
+
+git checkout <хэш коммита>
+
+git reset -hard откатит все
+
+git reset -mixed 
+git reset -soft в стажинг ареа
+git -help
+
+git -help diff
+
+git rm удалит файл и запишет в стейджинг ареа
+git commit -amend -m ""
+git revert вернет удаленный файл и добавит который переименовали
+
+upstream главный
+
